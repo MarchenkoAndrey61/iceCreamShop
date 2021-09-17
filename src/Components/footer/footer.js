@@ -20,7 +20,7 @@ const Footer = () => {
                 </div>
             </div>
             <div>
-                podval
+                2021 Justice-team. All rights reserved.
             </div>
         </div>
     )
