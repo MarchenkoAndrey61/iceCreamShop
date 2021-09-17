@@ -4,7 +4,7 @@ import React from 'react';
 import Main from "./layouts/main/main";
 import Header from "./Components/header/header";
 import Nav from "./Components/nav/nav";
-
+import Footer from "./Components/footer/footer";
 const App = () => {
 
   return (
@@ -12,6 +12,7 @@ const App = () => {
         <Nav />
         <Header />
         <Main />
+        <Footer/>
     </div>
   );
 }
