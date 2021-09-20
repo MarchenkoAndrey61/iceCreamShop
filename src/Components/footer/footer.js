@@ -5,21 +5,21 @@ import s from './footstyle.module.scss'
 const Footer = () => {
     return(
         <div className={s.container}>
-            <div>
+            <div className={s.footer}>
                 <div>
                     <img src={logo} alt='logo'/>
                 </div>
                 <div>
                     <ul className={s.link}>
-                        <li>Our Products</li>
-                        <li>Privacy Terms</li>
-                        <li>Twitter</li>
-                        <li>Facebook</li>
-                        <li>Email</li>
+                        <li className={s.li}>Our Products</li>
+                        <li className={s.li}>Privacy Terms</li>
+                        <li className={s.li}>Twitter</li>
+                        <li className={s.li}>Facebook</li>
+                        <li className={s.li}>Email</li>
                     </ul>
                 </div>
             </div>
-            <div>
+            <div className={s.politics}>
                 2021 Justice-team. All rights reserved.
             </div>
         </div>

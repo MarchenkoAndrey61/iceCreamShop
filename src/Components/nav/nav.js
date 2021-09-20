@@ -5,22 +5,25 @@ import user from '../../assets/user.png'
 import cart from '../../assets/cart.png'
 const Nav = () => {
     return (
-        <div className={s.container}>
+        <div className={s.header}>
             <div><img src={logo} alt='logo' /> </div>
             <div>
                 <div className={s.login}>
-                    <div>
+                    <div className={s.userimg}>
                         <img src={user} alt='user icon'/>
                     </div>
                     <div>
                         Sing up
                     </div>
-                    /
+                    <div className={s.sl}>
+                        /
+                    </div>
+
                     <div>
                         Sing in
                     </div>
-                    <div>
-                        <img src={cart} alt='cart'/>
+                    <div className={s.card}>
+                        <img src={cart} alt='cart' className={s.userimg}/>
                         Cart
                     </div>
                 </div>

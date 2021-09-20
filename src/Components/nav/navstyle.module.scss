@@ -1,13 +1,29 @@
-.container{
-  width: 1920px;
-  height: 86px;
-  left: 0px;
-  top: 0px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  background: #FFFFFF;
-  .login{
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  .login {
     display: flex;
-    float: right;
+    align-items: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    color: #212542;
+  }
+  .userimg{
+    margin-right: 10px;
+  }
+  .card{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+  }
+  .sl{
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
+

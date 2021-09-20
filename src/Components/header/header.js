@@ -5,7 +5,7 @@ const Header = () =>{
     return (
         <div className={s.container}>
             <div>I</div>
-            <div><img src={header} alt='logo'/></div>
+            <div className={s.logo}><img src={header} alt='logo'/></div>
             <div>ICE</div>
             <div className={s.cream}>CREAM</div>
         </div>

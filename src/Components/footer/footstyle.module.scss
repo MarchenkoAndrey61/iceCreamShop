@@ -4,6 +4,27 @@
   .link{
     list-style: none;
     display: flex;
-   float: right;
+  }
+  .li{
+    margin-right: 65px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(33, 37, 66, 0.7);
+  }
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .politics{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(33, 37, 66, 0.5);
   }
 }
